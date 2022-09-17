@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-compatible' content="IE=edge">
+	<meta name='viewport' content="width=device-width,initial-scale=1.0">
+	<title>tinyone</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<!-- Header section starts -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col6">
+					<div class="logo">
+						<img src="./assets/images/logo.png" alt="logo">
+					</div>		
+				</div>
+				<div class="col6">
+					<nav class="navbar">
+						<ul>
+							<li>
+								<a href="features.html" target="_blank">
+									features
+								</a>
+							</li>
+							<li>
+								<a href="features.html" target="_blank">
+									support
+								</a>
+							</li>
+							<li>
+								<a href="features.html" target="_blank">
+									blog
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+</body>
+</html>
+
+
+
+

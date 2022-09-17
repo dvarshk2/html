@@ -1,0 +1,144 @@
+.container{
+	width:1170px;
+	position:relative;
+}
+/* ----------header css starts here--------- */
+.headerIcon{
+	background-color:#f5f7fa;
+	padding:20px 0 14px;
+}
+.contact{
+	color:#506a85;
+}
+.contact i{
+	color:#5c748d;
+	margin-right:10px;
+	font-size:13px;
+	
+}
+.contact span a{
+	font-size:12px;
+	margin-right:30px;
+	color:#506a85;
+}
+.headerIcons a i{
+	font-size:12px;
+	margin: 0 10px;
+	color:#506a85;
+}
+header{
+	padding:35px 0;
+	background-color:#fff;
+}
+.navigation{
+	display:inline-block;
+}
+.navbar ul li{
+	display:inline-block;
+	margin:10px 10px;
+}
+.navbar ul li:last-child{
+	margin-right:0;
+}
+.navbar a{
+	padding: 5px 10px;
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:bold;
+	color:#506a85;
+}
+.searchbox{
+	position:absolute;
+	top:50 px;
+	right:25px;
+}
+.searchbox i{
+	font-size:13px;
+}
+/* =========hero css starts here====== */
+.hero{
+	background-image:url(../images/heroImg.jpg);
+	/* height:100vh; */
+	background-repeat:no-repeat;
+	/* background-position:left center; */
+	background-size:cover;
+}
+.heroInfo{
+	padding-bottom:300px;
+	padding-top:300px;
+}
+.heroHeading{
+	font-size:76px;
+	margin-bottom:35px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.heroPara{
+	font-size:24px;
+	color:#a3b1bf;
+	line-height:30px;
+	margin-bottom:70px;
+}
+.startbtn button{
+	padding: 25px 70px;
+	background-color:#00bc9c;
+	font-size:18px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 auto;
+	border:none;
+}
+.startbtn button:hover,
+.startbtn button:active,
+.startbtn button:focus{
+	color:#00bc9c;
+	background-color:#fff;
+	border:none;
+	cursor:pointer;
+}
+
+/* --------------Responsive section starts----------- */
+.responsive{
+	padding:130px 0;
+}
+.bcr{
+	margin:0 auto;
+}
+.bcr h2{
+	font-size:44px;
+	color:#506a85;
+	text-align:center;
+	margin-bottom:40px;
+}
+.bcr p{
+	font-size:22px;
+	color:#73879c;
+	line-height:28px;
+
+}
+.thumbnail,.thumbIcon,.thumbInfo{
+	float:left;
+}
+.thumbnail{
+	width:calc(100% / 3);
+}
+.thumbIcon{
+	width:25%;
+	font-size:60px;
+	color:#00bc9c;
+}
+.thumbInfo{
+	width:75%;
+}
+.thumbHeading{
+	color:#506a85;
+	font-size:26px;
+	text-transform:capitalize;
+}
+.thumbPara{
+	color:#73879c;
+	font-size:16px;
+	line-height:21px;
+	text-align:justify;
+}

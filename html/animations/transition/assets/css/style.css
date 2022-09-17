@@ -1,0 +1,81 @@
+h2{
+    text-transform: capitalize;
+    font-style: italic;
+    color: orangered;
+}
+.transition,.height,.width,.background{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    color: #fff;
+    float:left;
+    margin-right: 2px;
+    text-align: center;
+}
+.transition{
+    /* transition-property: all; */
+}
+.height{
+    transition-property: height;
+    transition-duration: 1s;
+    border-radius: 100px;
+}
+.width{
+    transition-property: width;
+    transition-duration: 2s;
+    border-radius: 100%;
+}
+.background{
+    transition-property: height, width,background-color;
+    transition-delay: 1s;
+    border-radius: 25%;
+    
+}
+.transition:hover,.height:hover, .width:hover,.background:hover{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    color: #000;
+}
+.row{
+    margin: 250px 0;
+}
+.ease,.linear,.ease-in,.ease-out,.ease-in-out,.steps{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    margin-right: 2px;
+    color: #fff;
+    float: left;
+    text-align: center;
+} 
+.ease{
+    transition-timing-function: ease;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+.linear{
+    transition-timing-function: linear;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+.ease-in{
+    transition: all 2s ease-in 0.5s;
+}
+.ease-out{
+    transition: width 3s ease-out 01s;
+}
+.ease-in-out{
+    transition: height 2s ease-in-out 0.5s;
+}
+.steps{
+    transition: all 2s steps(5) 0.5s;
+}
+.ease:hover,.linear:hover,.ease-in:hover,.ease-out:hover,
+.ease-in-out:hover,.steps:hover{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}

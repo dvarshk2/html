@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*Helper classes */
+.container{
+	width:930px;
+	margin:0 auto;
+}
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+.col6{
+	float:left;
+	width:50%;
+}
+/* Header css starts */
+header{
+	background-color:#fcdb00;
+	padding:60px 0 105px;
+}
+.logo{
+	padding:5px;
+}
+nav{
+	float:right;
+}
+nav ul{
+	list-style:none;
+	
+}
+nav ul li{
+	display:inline-block;
+	margin:0 20px;
+}
+nav ul li a{
+	padding:0 18px;
+	font-size:22px;
+	color:#010101;
+	font-weight:bold;
+	text-transform:capitalize;
+	cursor:pointer;
+}
